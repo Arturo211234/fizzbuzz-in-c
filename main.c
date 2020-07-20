@@ -24,6 +24,15 @@ int main(){
          output[j]="";
      }
      current = 0;
+
+  
+  //This is overly complicated. If you want something simpler, try replacing the code in the loop with:
+  //if(i%FIZZNUM==0 && i !=0) {printf("Fizz");}
+  //if(i%BUZZNUM==0 && i !=0) {printf("Buzz");}
+  //if(i%BUZZNUM != 0 && i%FIZZNUM != 0) {printf("%d", i);}
+  //printf("\n");
+  
+ 
  }
  
  
