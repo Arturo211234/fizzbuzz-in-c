@@ -21,7 +21,7 @@ int main(){
      if(current == 0) {printf("%d", i);}
      printf("%s", output);
      for(int j = 0; j<MAXLENGTH; j++){
-         output[j]="";
+         output[j]=0;
      }
      current = 0;
 
